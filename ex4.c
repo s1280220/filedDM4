@@ -3,7 +3,14 @@
 
 int main(){
 int i,num,head=0,tails=0;
-
+  
+// name part
+  char str[8];
+  parintf("What is your name?");
+  scanf("%s",str);
+  printf("Hello, %s\n",str);
+  
+// coin part
 printf("Tossing a coin...\n");
 
 for(i=0;i<3;i++){
